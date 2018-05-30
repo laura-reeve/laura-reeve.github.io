@@ -1,0 +1,14 @@
+/* Author styles go here */
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+li {
+  list-style-type: none;
+}
+
+button a {
+  color: white;
+}
