@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Bootstrap CSS and JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Main.CSS -->
     <link rel="stylesheet" href="css/main.css">
     
@@ -14,15 +16,34 @@
   
   </head>
   <body>
-    <div class="container">
-    <h1>Laura Reeve</h1>
-    <h2>Web App Developer Portfolio</h2>
-    <p>I like building websites and web apps, and I'm currently studying for a Web Development Certificate from Seattle University. 
+    <nav class="navbar navbar-fixed-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="#">Laura Reeve</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#projects">Projects</a></li>
+            <li><a href="/#contact">Contact</a></li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container" id="about">
+    <h2>A Web App Developer Portfolio</h2>
+    <p>Hi!  I'm Laura Reeve, and I like building websites and web apps, and I'm currently studying for a Web Development Certificate from Seattle University. 
       I really like using Vue.js as an app framework and Bootstrap as a CSS framework (although CSS grid is growing on me).
       I like to build clean and simple interfaces that focus on one or two features. 
       Find me on <a href="https://www.github.com/laura-reeve" target="_blank">Github</a> or <a href="mailto:laura@reevedesigns.com">email me</a> if you have any questions!
     </p>
-    <p>Take a look at some of my projects here:</p>
+    <p id="projects">Take a look at some of my projects here:</p>
     <ul>
       <li><a href="http://reevedesigns.com/wats1010-css-zen-garden/" target="_blank">CSS Zen Garden</a></li>
       <p>A demonstration of pure CSS.</p>
@@ -41,8 +62,21 @@
       <li><a href="http://responserequest.com/reevel/" target="_blank">User Science Journal</a></li>
       <p>A Wordpress blog I kept for a User Science and Testing class.</p>
     </ul>
-    <footer>
-      <p><button class="btn btn-success"><a href="mailto:laura@reevedesigns.com">Email me!</a></button></p>
+    <footer id="contact">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>  
+      <ul id="socialmedia">
+        <li><a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/laura-reeve" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+      <p><a href="mailto:laura@reevedesigns.com">laura@reevedesigns.com</a></p>
+      <p>&copy; 2018 Laura Reeve. All rights reserved.</p>
     </footer>
   </div> <!-- body div -->
     <!-- Optional JavaScript -->
