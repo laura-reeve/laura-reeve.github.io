@@ -1,5 +1,13 @@
 /* Author styles go here */
 
+#giant-image {
+  margin-top: 60px;
+  height: 300px;
+  width: auto;
+  background-color: lightskyblue;
+  color: white;
+}
+
 h2 {
   font-size: 1.5em;
   line-height: 1.5em;
@@ -9,6 +17,33 @@ li {
   list-style-type: none;
 }
 
-button a {
-  color: white;
+#myNavbar {
+  float: right;
+}
+
+#about, #projects, #contact {
+  border-top: 2px solid darkblue;
+}
+
+footer {
+  text-align: center;
+}
+
+#footer-nav li {
+  float: left;
+  padding: 10px;
+  border-right: 2px solid darkblue;
+}
+
+#footer-nav li:last-child {
+  border-right: none;
+}
+
+.clear-float {
+  clear: left;
+}
+
+#social-media li {
+  float: left;
+  padding: 10px;
 }

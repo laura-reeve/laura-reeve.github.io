@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
     <!-- Main.CSS -->
     <link rel="stylesheet" href="css/main.css">
     
@@ -16,6 +20,9 @@
   
   </head>
   <body>
+    <div class="container" id="giant-image">
+      <p>Some gigantic image goes here...</p>
+    </div>
     <nav class="navbar navbar-fixed-top navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -29,9 +36,9 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="/#about">About</a></li>
-            <li><a href="/#projects">Projects</a></li>
-            <li><a href="/#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           </div>
         </div>
@@ -40,8 +47,7 @@
     <h2>A Web App Developer Portfolio</h2>
     <p>Hi!  I'm Laura Reeve, and I like building websites and web apps, and I'm currently studying for a Web Development Certificate from Seattle University. 
       I really like using Vue.js as an app framework and Bootstrap as a CSS framework (although CSS grid is growing on me).
-      I like to build clean and simple interfaces that focus on one or two features. 
-      Find me on <a href="https://www.github.com/laura-reeve" target="_blank">Github</a> or <a href="mailto:laura@reevedesigns.com">email me</a> if you have any questions!
+      I like to build clean and simple interfaces that focus on one or two features.  <a href="#contact">Contact me</a> for more details!
     </p>
     <p id="projects">Take a look at some of my projects here:</p>
     <ul>
@@ -63,7 +69,8 @@
       <p>A Wordpress blog I kept for a User Science and Testing class.</p>
     </ul>
     <footer id="contact">
-      <nav>
+      <div class="container" id="footer-links">
+      <nav id="footer-nav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -71,10 +78,13 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>  
-      <ul id="socialmedia">
-        <li><a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/laura-reeve" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      <p class="clear-float"></p>
+      <ul id="social-media">
+        <li><a href="https://www.github.com/laura-reeve" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/laura-reeve" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
       </ul>
+      <p class="clear-float"></p>
+      </div>
       <p><a href="mailto:laura@reevedesigns.com">laura@reevedesigns.com</a></p>
       <p>&copy; 2018 Laura Reeve. All rights reserved.</p>
     </footer>
