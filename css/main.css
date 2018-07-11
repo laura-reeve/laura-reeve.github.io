@@ -26,6 +26,12 @@ li {
   padding-top: 20px;
 }
 
+div.projects {
+  height: 200px;
+  min-width: 100px;
+  border: 1px solid darkblue;
+}
+
 footer {
   text-align: center;
 }
