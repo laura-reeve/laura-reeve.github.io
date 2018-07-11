@@ -23,14 +23,19 @@ li {
 
 #about, #projects, #contact {
   border-top: 2px solid darkblue;
+  padding-top: 20px;
 }
 
 footer {
   text-align: center;
 }
 
+#footer-nav ul {
+  padding-left: 0;
+}
+
 #footer-nav li {
-  float: left;
+  display: inline-block;
   padding: 10px;
   border-right: 2px solid darkblue;
 }
@@ -39,11 +44,11 @@ footer {
   border-right: none;
 }
 
-.clear-float {
-  clear: left;
+#social-media {
+  padding-left: 0;
 }
 
 #social-media li {
-  float: left;
-  padding: 10px;
+  display: inline-block;
+  padding-right: 10px;
 }
