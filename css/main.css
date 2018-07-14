@@ -1,14 +1,101 @@
 /* Author styles go here */
 
+#particles-js {
+  margin-top: 50px;
+  height: 300px;
+  width: 100%;
+  background: darkblue;
+}
+
 h2 {
   font-size: 1.5em;
   line-height: 1.5em;
+  text-align: center;
+}
+
+#laura-headshot {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+} 
+
+#about p {
+  margin-top: 30px;
 }
 
 li {
   list-style-type: none;
 }
 
-button a {
+#myNavbar {
+  float: right;
+}
+
+#about, #projects, #contact {
+  border-top: 2px solid darkblue;
+  padding-top: 20px;
+}
+
+div.projects {
+  height: 200px;
+  min-width: 100px;
+  border: 1px solid darkblue;
+}
+
+/* PROJECT PAGE */
+
+#website-preview {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-top: 20px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+button {
+  margin-top: 5px;
+}
+
+#project-description {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.25em;
+  margin-bottom: 50px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  background: darkblue;
   color: white;
+}
+
+#footer-nav ul {
+  padding-left: 0;
+}
+
+#footer-nav li {
+  display: inline-block;
+  padding: 10px;
+  border-right: 2px solid darkblue;
+}
+
+#footer-nav li:last-child {
+  border-right: none;
+}
+
+#social-media {
+  padding-left: 0;
+}
+
+#social-media li {
+  display: inline-block;
+  padding-right: 10px;
 }

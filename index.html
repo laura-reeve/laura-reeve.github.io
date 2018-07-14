@@ -5,44 +5,92 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Bootstrap CSS and JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
     <!-- Main.CSS -->
     <link rel="stylesheet" href="css/main.css">
     
-    <title>Laura's Github Portfolio</title>
+    <title>Laura Reeve Portfolio</title>
   
   </head>
   <body>
-    <div class="container">
-    <h1>Laura Reeve</h1>
-    <h2>Web App Developer Portfolio</h2>
-    <p>I like building websites and web apps, and I'm currently studying for a Web Development Certificate from Seattle University. 
+    <!-- Particles.js -->
+    <div id="particles-js"></div> 
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <!-- end particles.js box -->
+
+    <nav class="navbar navbar-fixed-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="#">Laura Reeve</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container" id="about">
+    <h2>A Web App Developer Portfolio</h2>
+    <div class="row">
+    <p class="col-lg-6">Hi!  I'm Laura Reeve, and I like building websites and web apps, and I'm currently studying for a Web Development Certificate from Seattle University. 
       I really like using Vue.js as an app framework and Bootstrap as a CSS framework (although CSS grid is growing on me).
-      I like to build clean and simple interfaces that focus on one or two features. 
-      Find me on <a href="https://www.github.com/laura-reeve" target="_blank">Github</a> or <a href="mailto:laura@reevedesigns.com">email me</a> if you have any questions!
+      I like to build clean and simple interfaces that focus on one or two features.  <a href="#contact">Contact me</a> for more details!
     </p>
-    <p>Take a look at some of my projects here:</p>
-    <ul>
-      <li><a href="http://reevedesigns.com/wats1010-css-zen-garden/" target="_blank">CSS Zen Garden</a></li>
-      <p>A demonstration of pure CSS.</p>
-      <li><a href="http://reevedesigns.com/wats1010-product-page" target="_blank">API Superstore Product Page</a></li>
-      <p>A sample product page built with Bootstrap. This was a final project for an HTML/CSS class.</p>
-      <li><a href="http://reevedesigns.com/wats1020-dom-basics/" target="_blank">Fortune Cookie Generator</a></li>
-      <p>A demonstration of pure JavaScript.</p>
-      <li><a href="http://reevedesigns.com/wats1020-final-project" target="_blank">Flip Diving Game</a></li>
-      <p>A page that uses AJAX to embed a game API (uses Flash) and also uses @media queries for responsiveness. This was a final project for a JavaScript class.</p>
-      <li><a href="http://1artplease.com" target="_blank">1 Art Please</a></li>
-      <p>A Wordpress site for my husband's art (please contact him if you like it!)</p>
-      <li><a href="http://reevedesigns.com/weather-and-a-movie" target="_blank">Weather and a Movie</a></li>
-      <p>A Vue.js web app with two API calls: the first call to the weather API creates the query parameter for the movie API (also uses Bootstrap).</p>
-      <li><a href="http://cozyhome.reevedesigns.com" target="_blank">Cozy Home Life</a></li>
-      <p>A simple Vue.js web app built for a Google Analytics goal and funnel (also uses CSS grid).</p>
-      <li><a href="http://responserequest.com/reevel/" target="_blank">User Science Journal</a></li>
-      <p>A Wordpress blog I kept for a User Science and Testing class.</p>
-    </ul>
-    <footer>
-      <p><button class="btn btn-success"><a href="mailto:laura@reevedesigns.com">Email me!</a></button></p>
+    <img id="laura-headshot" src="img/laura-headshot.JPG" alt="Laura Reeve headshot" class="img-circle center-block">
+    </div>
+    </div> <!-- #about div -->
+    <div class="container" id="projects">
+      <p>Take a look at some of my projects here:</p>
+      <div class="container-fluid">
+        <div class="row">
+        <div class="projects col-12 col-sm-6 col-md-4 col-lg-4"><a href="/projects/css-zen-garden.html">CSS Zen Garden</a></div>
+        <div class="projects col-12 col-sm-6 col-md-4 col-lg-4"><a href="/projects/api-superstore.html">API Superstore Product Page</a></div>
+        <div class="projects col-12 col-sm-12 col-md-4 col-lg-4"><a href="/projects/fortune-cookie.html">Fortune Cookie Generator</a></div>
+        </div>
+        <div class="row">
+        <div class="projects col-12 col-sm-6 col-md-4 col-lg-4"><a href="/projects/flip-diving.html">Flip Diving Game</a></div>
+        <div class="projects col-12 col-sm-6 col-md-4 col-lg-4"><a href="/projects/1-art-please.html">1 Art Please</a></div>
+        <div class="projects col-12 col-sm-12 col-md-4 col-lg-4"><a href="/projects/weather-and-a-movie.html">Weather and a Movie</a></div>
+        </div>
+        <div class="row">
+        <div class="projects col-12 col-sm-6 col-md-4 col-lg-4"><a href="/projects/cozy-home.html">Cozy Home Life</a></div>
+        <div class="projects col-12 col-sm-6 col-md-4 col-lg-4"><a href="/projects/user-science-journal.html">User Science Journal</a></div>
+        <div class="projects col-12 col-sm-12 col-md-4 col-lg-4"><a href="/projects/capstone.html">Capstone!</a></div>
+        </div> <!-- row div -->
+    </div> <!-- boxes div -->
+    </div> <!-- #projects div -->
+    <footer class="container-fliud" id="contact" id="particles-js">
+      <nav id="footer-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>  
+      <ul id="social-media">
+        <li><a href="https://www.github.com/laura-reeve" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/laura-reeve" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+      <p><a href="mailto:laura@reevedesigns.com">laura@reevedesigns.com</a></p>
+      <p>&copy; 2018 Laura Reeve. All rights reserved.</p>
     </footer>
   </div> <!-- body div -->
     <!-- Optional JavaScript -->
