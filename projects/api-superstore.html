@@ -16,10 +16,15 @@
     <!-- Main.CSS -->
     <link rel="stylesheet" href="../css/main.css">
     
-    <title>A Sample Project Page</title>
+    <title>API Superstore</title>
   
   </head>
   <body>
+    <!-- Particles.js -->
+    <div id="particles-js"></div> 
+    <script src="../js/particles.js"></script>
+    <script src="../js/app.js"></script>
+    <!-- end particles.js box -->
     <div class="container">
         <nav class="navbar navbar-fixed-top navbar-default">
             <div class="container-fluid">
@@ -41,25 +46,18 @@
               </div>
             </div>
         </nav>
-      <ul>
-        <li><a href="http://reevedesigns.com/wats1010-css-zen-garden/" target="_blank">CSS Zen Garden</a></li>
-          <p>A demonstration of pure CSS.</p>
-        <li><a href="http://reevedesigns.com/wats1010-product-page" target="_blank">API Superstore Product Page</a></li>
-          <p>A sample product page built with Bootstrap. This was a final project for an HTML/CSS class.</p>
-        <li><a href="http://reevedesigns.com/wats1020-dom-basics/" target="_blank">Fortune Cookie Generator</a></li>
-          <p>A demonstration of pure JavaScript.</p>
-        <li><a href="http://reevedesigns.com/wats1020-final-project" target="_blank">Flip Diving Game</a></li>
-          <p>A page that uses AJAX to embed a game API (uses Flash) and also uses @media queries for responsiveness. This was a final project for a JavaScript class.</p>
-        <li><a href="http://1artplease.com" target="_blank">1 Art Please</a></li>
-          <p>A Wordpress site for my husband's art (please contact him if you like it!)</p>
-        <li><a href="http://reevedesigns.com/weather-and-a-movie" target="_blank">Weather and a Movie</a></li>
-          <p>A Vue.js web app with two API calls: the first call to the weather API creates the query parameter for the movie API (also uses Bootstrap).</p>
-        <li><a href="http://cozyhome.reevedesigns.com" target="_blank">Cozy Home Life</a></li>
-          <p>A simple Vue.js web app built for a Google Analytics goal and funnel (also uses CSS grid).</p>
-        <li><a href="http://responserequest.com/reevel/" target="_blank">User Science Journal</a></li>
-          <p>A Wordpress blog I kept for a User Science and Testing class.</p>
-      </ul>
-      <footer id="contact">
+        <div class="container">
+          <img id="website-preview" src="../img/api-superstore.png" alt="full screen and mobile view of website" class="center-block">
+          <div class="row" id="buttons">
+            <button class="btn"><a href="https://github.com/laura-reeve/wats1010-css-zen-garden" target="_blank">View Source Code</a></button>
+            <button class="btn"><a href="http://reevedesigns.com/wats1010-product-page" target="_blank">View Website</a></button>
+          </div>
+        </div>
+        <div class="container" id="project-description">
+          <h2>API Superstore</h2>
+          <h3>A sample product page built to showcase Bootstrap, embedded media, HTML5, and CSS.</h3>
+        </div>
+      <footer class="container-fluid" id="contact">
           <nav id="footer-nav">
             <ul>
               <li><a href="/index.html">Home</a></li>

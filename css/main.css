@@ -13,7 +13,7 @@ h2 {
   text-align: center;
 }
 
-img {
+#laura-headshot {
   max-width: 200px;
   height: auto;
   margin-bottom: 20px;
@@ -42,8 +42,39 @@ div.projects {
   border: 1px solid darkblue;
 }
 
+/* PROJECT PAGE */
+
+#website-preview {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-top: 20px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+button {
+  margin-top: 5px;
+}
+
+#project-description {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.25em;
+  margin-bottom: 50px;
+}
+
+/* FOOTER */
+
 footer {
   text-align: center;
+  background: darkblue;
+  color: white;
 }
 
 #footer-nav ul {
