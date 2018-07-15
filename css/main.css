@@ -37,9 +37,13 @@ li {
 }
 
 div.projects {
-  height: 200px;
+  height: 230px;
   min-width: 100px;
   border: 1px solid darkblue;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 1.75em;
 }
 
 /* PROJECT PAGE */
