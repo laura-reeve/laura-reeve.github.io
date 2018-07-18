@@ -1,11 +1,15 @@
 /* Author styles go here */
 
+/* PARTICLES BOX */
+
 #particles-js {
   margin-top: 50px;
   height: 300px;
   width: 100%;
   background: darkblue;
 }
+
+/* GLOBAL STYLES / HOME PAGE */
 
 h2 {
   font-size: 1.5em;
@@ -17,7 +21,7 @@ h2 {
   max-width: 200px;
   height: auto;
   margin-bottom: 20px;
-} 
+}
 
 #about p {
   margin-top: 30px;
@@ -31,7 +35,9 @@ li {
   float: right;
 }
 
-#about, #projects, #contact {
+#about,
+#projects,
+#contact {
   border-top: 2px solid darkblue;
   padding-top: 20px;
 }
@@ -46,7 +52,7 @@ div.projects {
   line-height: 1.75em;
 }
 
-/* PROJECT PAGE */
+/* PROJECT PAGES */
 
 #website-preview {
   width: 100%;
