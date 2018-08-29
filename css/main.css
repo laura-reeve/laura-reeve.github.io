@@ -6,15 +6,31 @@
   margin-top: 50px;
   height: 300px;
   width: 100%;
-  background: darkblue;
+  background: #00457D;
 }
 
 /* GLOBAL STYLES / HOME PAGE */
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
 
 h2 {
   font-size: 1.5em;
   line-height: 1.5em;
   text-align: center;
+}
+
+a {
+  color: #3F4354;
+}
+
+a:hover {
+  color: darkgray;
 }
 
 #laura-headshot {
@@ -35,17 +51,16 @@ li {
   float: right;
 }
 
-#about,
-#projects,
-#contact {
-  border-top: 2px solid darkblue;
-  padding-top: 20px;
+#projects {
+  border-top: 2px solid #3F4354;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 div.projects {
   height: 230px;
   min-width: 100px;
-  border: 1px solid darkblue;
+  border: 1px solid #3F4354;
   text-align: center;
   font-size: 1.25em;
   font-weight: bold;
@@ -66,7 +81,16 @@ div.projects {
 }
 
 button {
-  margin-top: 5px;
+  margin-top: 40px;
+  background-color: #00457D;
+}
+
+button a {
+  color: lightgray;
+}
+
+button a:hover {
+  color: white;
 }
 
 #project-description {
@@ -83,7 +107,18 @@ h3 {
 
 footer {
   text-align: center;
-  background: darkblue;
+  background: #00457D;
+  color: white;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+footer a {
+  color: lightgray;
+}
+
+footer a:hover {
   color: white;
 }
 
@@ -94,7 +129,7 @@ footer {
 #footer-nav li {
   display: inline-block;
   padding: 10px;
-  border-right: 2px solid darkblue;
+  border-right: 2px solid #00457D;
 }
 
 #footer-nav li:last-child {
