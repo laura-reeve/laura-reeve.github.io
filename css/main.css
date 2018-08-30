@@ -80,17 +80,21 @@ div.projects {
   text-align: center;
 }
 
-button {
+.button {
   margin-top: 40px;
   background-color: #00457D;
 }
 
-button a {
+.button {
   color: lightgray;
 }
 
-button a:hover {
+.button:hover {
   color: white;
+}
+
+.button:visited {
+  color: whitesmoke;
 }
 
 #project-description {
